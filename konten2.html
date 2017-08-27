@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <ul id="dropdown1" class="dropdown-content" style="margin-top: 65px;">
+    <li><a class="red-text text-darken-2" href="konten.html">Konten 1</a></li>
+    <li class="active"><a class="red-text text-darken-2" href="konten2.html">Konten 2</a></li>
+  </ul>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#!" class="brand-logo red-text text-darken-2">Logo</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse red-text text-darken-2"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="menu-tutorial" class="red-text text-darken-2">Tutorial</a></li>
+          <li class="active"><a class="dropdown-button red-text text-darken-2" href="#!" data-activates="dropdown1">Konten<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="#!" class="red-text text-darken-2">Kuliah</a></li>
+          <li><a href="bantuan.html" class="red-text text-darken-2">Bantuan</a></li>
+          <li><a href="tentang.html" class="red-text text-darken-2">Tentang</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="menu-tutorial" class="active">Tutorial</a></li>
+          <li><a href="#!">Kuliah</a></li>
+          <li><a href="bantuan.html">Bantuan</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container" style="margin-top:25px; margin-bottom:100px;">
+    <div class="row">
+      <div class="col s4 z-depth-2" style="margin-top:8px">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Menu</h4></li>
+          <li class="collection-item active red darken-2"><div>Tutorial<a href="#!" class="secondary-content"><i class="material-icons">folder_open</i></a></div></li>
+          <li class="collection-item"><div>Kuliah<a href="#!" class="secondary-content"><i class="material-icons">folder_open</i></a></div></li>
+          <li class="collection-item"><div>Quiz<a href="#!" class="secondary-content"><i class="material-icons">folder_open</i></a></div></li>
+          <li class="collection-item"><div>Download<a href="#!" class="secondary-content"><i class="material-icons">folder_open</i></a></div></li>
+        </ul>
+
+        <div class="card-panel red darken-2 z-depth-2">
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+        </div>
+
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Sub Menu</h4></li>
+          <li class="collection-item">Install Laravel Pada Elementary Freya OS</li>
+          <li class="collection-item">Mengenal Database Migration</li>
+          <li class="collection-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo</li>
+          <li class="collection-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</li>
+        </ul>
+      </div>
+
+      <div class="col s8">
+        <div class="card-panel">
+          <h5>Lendis Fabri</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer z-depth-5 white">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="red-text text-darken-2">Footer Content</h5>
+          <p class="red-text text-darken-2">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="red-text text-darken-2">Links</h5>
+          <ul>
+            <li><a class="red-text text-darken-2" href="#!">Link 1</a></li>
+            <li><a class="red-text text-darken-2" href="#!">Link 2</a></li>
+            <li><a class="red-text text-darken-2" href="#!">Link 3</a></li>
+            <li><a class="red-text text-darken-2" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright red darken-2">
+      <div class="container white-text">
+        © 2014 Copyright Text
+        <a class="white-text right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(".button-collapse").sideNav();
+  </script>
+</body>
+</html>
